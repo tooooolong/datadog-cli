@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "skills": {
+    "datadog-cli": {
+      "source": "tooooolong/datadog-cli",
+      "sourceType": "github",
+      "computedHash": "231a30bcd2b68cb843f00aeb694a8bbd0a463e6de5a3c7133330ed25949efa2c"
+    }
+  }
+}
