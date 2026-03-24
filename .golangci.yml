@@ -1,0 +1,19 @@
+version: "2"
+linters:
+  default: none
+  enable:
+    - errcheck
+    - govet
+    - staticcheck
+    - unused
+    - ineffassign
+  settings:
+    errcheck:
+      exclude-functions:
+        - fmt.Fprintf
+        - fmt.Fprintln
+        - fmt.Printf
+        - fmt.Println
+        - fmt.Print
+        - (*github.com/spf13/cobra.Command).MarkFlagRequired
+        - (*bufio.Reader).ReadBytes

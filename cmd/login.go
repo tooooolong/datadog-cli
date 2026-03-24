@@ -38,7 +38,7 @@ func runLogin(cmd *cobra.Command, args []string) error {
 		return err
 	}
 	if apiKey == "" {
-		return fmt.Errorf("API Key cannot be empty")
+		return fmt.Errorf("api key cannot be empty")
 	}
 
 	appKey, err := readSecret(reader, isTTY, "DD App Key", existingHint(existing, "app"))
@@ -46,7 +46,7 @@ func runLogin(cmd *cobra.Command, args []string) error {
 		return err
 	}
 	if appKey == "" {
-		return fmt.Errorf("App Key cannot be empty")
+		return fmt.Errorf("app key cannot be empty")
 	}
 
 	fmt.Println()
