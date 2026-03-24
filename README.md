@@ -9,7 +9,7 @@ Built with Go, [cobra](https://github.com/spf13/cobra), and [datadog-api-client-
 ## Skill
 
 ```bash
-npx skills add tooooolong/datadog-cli@datadog-cli-skill
+npx skills add tooooolong/datadog-cli@datadog-cli
 ```
 
 Installs the `datadog-cli` skill for your agent, enabling AI-assisted Datadog operations.
