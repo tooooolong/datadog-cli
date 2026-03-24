@@ -1,0 +1,7 @@
+.envrc
+.env
+.env.*
+*.pem
+*.key
+*.log
+datadog
